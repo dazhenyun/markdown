@@ -1,9 +1,3 @@
----
-title: GMarkdown
-sidemenu: false
----
-
-> 此功能由[dumi](https://d.umijs.org/zh-CN/guide/advanced#umi-%E9%A1%B9%E7%9B%AE%E9%9B%86%E6%88%90%E6%A8%A1%E5%BC%8F)提供，dumi 是一个 📖 为组件开发场景而生的文档工具，用过的都说好。
 
 ## GMarkdown.Editor 组件
 
@@ -159,7 +153,7 @@ a11yDark,a11yLight,agate,anOldHope ,androidstudio ,arduinoLight, arta, ascetic, 
 ### 卸载内置插件
 
 ```js
-import GMarkdown from "@dzc/markdown";
+import GMarkdown , { Plugins} from "@dzc/markdown";
 GMarkdown.unuse(Plugins.Header); // header
 GMarkdown.unuse(Plugins.FontBold); // font-bold
 ```
